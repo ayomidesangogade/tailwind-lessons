@@ -3,6 +3,8 @@ import FirstLessonPractice from "./lessons/FirstLessonPractice";
 import SecondLesson from "./lessons/SecondLesson";
 import SecondLessonPractice from "./lessons/SecondLessonPractice";
 import ThirdLesson from "./lessons/ThirdLesson";
+import FourthLesson from "./lessons/FourthLesson";
+import FifthLesson from "./lessons/FifthLesson";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           <Route path="practice" element={<SecondLessonPractice />} />
         </Route>
         <Route path="/third-lesson" element={<ThirdLesson />} />
+        <Route path="/fourth-lesson" element={<FourthLesson />} />
+        <Route path="/fifth-lesson" element={<FifthLesson />} />
       </Routes>
     </BrowserRouter>
   )

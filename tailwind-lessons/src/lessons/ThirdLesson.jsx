@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function ThirdLesson() {
     const boolean = false;
 
@@ -18,6 +20,9 @@ function ThirdLesson() {
                 <button className="border border-red-400 rounded-md px-8 py-2 hover:bg-red-400 hover:text-white mr-4">Red</button>
                 <button className="border border-slate-200 px-8 py-2 rounded-md hover:bg-slate-200 mr-4">Grey</button>
                 <button className="border rounded-md px-8 py-2 hover:bg-black hover:text-white">Black</button>
+            </div>
+            <div className="mt-4">
+                <Link to="/fourth-lesson">fourth lesson</Link>
             </div>
         </>
     )
