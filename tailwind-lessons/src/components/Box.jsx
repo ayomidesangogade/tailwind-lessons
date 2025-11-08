@@ -1,5 +1,5 @@
-function Box() {
-    return <div className="border border-black p-12 w-45 bg-amber-400 rounded-md"></div>
+function Box({padding}) {
+    return <div className={`border border-black w-45 bg-amber-400 rounded-md ${padding}`}></div>
 }
 
 export default Box;
