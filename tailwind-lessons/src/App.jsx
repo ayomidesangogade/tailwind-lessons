@@ -5,6 +5,7 @@ import SecondLessonPractice from "./lessons/SecondLessonPractice";
 import ThirdLesson from "./lessons/ThirdLesson";
 import FourthLesson from "./lessons/FourthLesson";
 import FifthLesson from "./lessons/FifthLesson";
+import SixthLesson from "./lessons/SixthLesson";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/third-lesson" element={<ThirdLesson />} />
         <Route path="/fourth-lesson" element={<FourthLesson />} />
         <Route path="/fifth-lesson" element={<FifthLesson />} />
+        <Route path="/sixth-lesson" element={<SixthLesson />} />
       </Routes>
     </BrowserRouter>
   )

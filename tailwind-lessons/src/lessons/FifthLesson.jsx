@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {Link} from "react-router-dom";
 import Box from "../components/Box";
 
 function FifthLesson() {
@@ -31,7 +32,7 @@ function FifthLesson() {
                 <Box padding={"p-12"}/>
                 <Box padding={"p-12"}/>
             </div>
-            <button onClick={() => setShowPractice(prev => !prev)} className="border border-green-400 px-8 py-4 rounded-md m-4 hover:bg-green-400 hover:text-white">Show practice</button>
+            <button onClick={() => setShowPractice(prev => !prev)} className="border border-green-400 px-8 py-4 rounded-md m-4 hover:bg-green-400 hover:text-white">Show practice</button><Link to="/sixth-lesson" className="bg-red-400 px-8 py-4 rounded-md text-white hover:bg-red-500">Sixth Lesson</Link>
             {showPractice && <div>
                 <div className="border-blue-400 h-64 border-2 m-4 p-4 rounded-full flex justify-around items-end">
                     <Box padding={"p-12"}/>
