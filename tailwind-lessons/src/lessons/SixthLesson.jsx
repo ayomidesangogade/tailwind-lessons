@@ -5,7 +5,7 @@ function SixthLesson() {
         <div className="flex flex-col items-center m-12">
             <div className="flex justify-between w-full">
                 <Link className="border p-4 bg-green-400 hover:bg-green-600 duration-500 rounded-md text-white" to="/fifth-lesson">Previous lesson</Link>
-                <Link className="border p-4 bg-red-400 hover:bg-red-600 duration-500 rounded-md text-white" to="">Next lesson</Link>
+                <Link className="border p-4 bg-red-400 hover:bg-red-600 duration-500 rounded-md text-white" to="/seventh-lesson">Next lesson</Link>
             </div>
             {/* <div className="bg-red-400 mb-[15px] w-[180px]">one</div>
             <div className="bg-blue-400 w-[560px]">two</div> */}
