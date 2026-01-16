@@ -1,6 +1,5 @@
 import FirstLesson from "./lessons/FirstLesson";
 import SecondLesson from "./lessons/SecondLesson";
-import SecondLessonPractice from "./lessons/SecondLessonPractice";
 import ThirdLesson from "./lessons/ThirdLesson";
 import FourthLesson from "./lessons/FourthLesson";
 import FifthLesson from "./lessons/FifthLesson";
@@ -15,9 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<FirstLesson />} />
-        <Route path="/second-lesson" element={<SecondLesson />}>
-          <Route path="practice" element={<SecondLessonPractice />} />
-        </Route>
+        <Route path="/second-lesson" element={<SecondLesson />} />
         <Route path="/third-lesson" element={<ThirdLesson />} />
         <Route path="/fourth-lesson" element={<FourthLesson />} />
         <Route path="/fifth-lesson" element={<FifthLesson />} />
