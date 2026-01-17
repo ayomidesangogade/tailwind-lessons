@@ -7,6 +7,7 @@ import SixthLesson from "./lessons/SixthLesson";
 import SeventhLesson from "./lessons/SeventhLesson";
 import EighthLesson from "./lessons/EighthLesson";
 import NinthLesson from "./lessons/NinthLesson";
+import TenthLesson from "./lessons/TenthLesson";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/seventh-lesson" element={<SeventhLesson />} />
         <Route path="/eighth-lesson" element={<EighthLesson />} />
         <Route path="/ninth-lesson" element={<NinthLesson />} />
+        <Route path="/tenth-lesson" element={<TenthLesson />} />
       </Routes>
     </BrowserRouter>
   )
